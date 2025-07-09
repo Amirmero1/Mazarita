@@ -1,14 +1,16 @@
-
 body {
   font-family: 'Cairo', sans-serif;
-  background: linear-gradient(to bottom, #f0f0f0, #d9edf7);
+  background: url('images/h.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
+
 .card img {
   height: 220px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 .match-card {
   max-width: 500px;
   margin: auto;
